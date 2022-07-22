@@ -1,0 +1,19 @@
+{
+    "name": "duqiang/php_redis_stream",
+    "description": "php操作redis流封装",
+    "autoload": {
+        "psr-4": {
+            "Duqiang\\PhpRedisStream\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "duqiang",
+            "email": "ehigh@ehigh.com"
+        }
+    ],
+    "require": {
+      "ext-redis": "*",
+      "ext-json": "*"
+    }
+}
